@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: Arial, sans-serif;
+	background: #121212;
+	text-align: center;
+}
+
+.Button1{
+	margin: 100px 0px;
+}
+
+.Button1 a:link,.Button1  a:visited{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 40px;
+	box-shadow: 0px 5px gray, 0px 0px 0px 4px white;
+	background: #fff;
+	color: #000;
+	margin: 10px;
+	transition: all 0.5s;
+}
+
+.Button1 a:hover{
+	box-shadow:  0px 5px red, 0px 0px 0px 4px white;
+}
+
+.Button2{
+	margin: 100px 0px;
+}
+
+.Button2 a:link,.Button2  a:visited{
+	margin: 7px;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+	/*padding: 15px 20px;*/
+	width: 50px;
+	max-width: 100px;
+	line-height: 50px;
+	background:  #f2f4f4;
+	color: #000;
+	box-shadow: 4px 4px 0px 4px #566573;
+	transition: all 0.2s;
+}
+
+.Button2 a:hover{
+	box-shadow: 3px 3px 0px 3px #2c3e50;
+	background: #b2babb;
+	position: relative;
+	top: 2.5px;
+}
+
+.Button3{
+	margin: 100px 0px;
+}
+
+.Button3 a:link,.Button3  a:visited{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 40px;
+	color: #fff;
+	margin: 10px;
+	transition: all 0.5s;
+	box-shadow:  0px 23px 0px -20px;
+}
+
+.Button3 a:hover{
+	box-shadow:  0px 5px 0px 0px #0f0;
+}
